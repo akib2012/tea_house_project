@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+/* font additing here */
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+/* global stye would be here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+
+/* reuseable styel would be here */
+
+
+
+
+
+/* banner design here */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    gap: 14px;
+    align-items: center;
+    margin-top: 68px;
+}
+
+.banner-img {
+    width: 560px;
+    height: 450px;
+    background-color: #f4f4f4fa;
+    background: transparent;
+}
+
+.banner-title {
+    font-size: 4.5rem;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+
+.banner-des {
+    margin: 30px 0px;
+    font-size: 14x;
+    color: #777777;
+
+}
+
+.banner-buyyon {
+    width: 200px;
+    height: 65px;
+    border-radius: 10px;
+    color: white;
+    padding: 18px;
+    background: linear-gradient(to right, #FF0000, #FF8938);
+    border: none;
+}
+
+.banner-right {
+    position: relative;
+}
+
+.badge {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 100px;
+    bottom: 30px;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.badge h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #101724;
+}
+
+.star-icon {
+    /* background: linear-gradient(#FFF082, #FFC850, #FFDC64); */
+    /* color: color-mix(#FFF082, #FFC850, #FFDC64); */
+    color: #FF8938;
+    size: 4rem;
+
+}
+
+
+/* products design here starts */
+
+.products-titile {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #1C1C1C;
+}
+
+.products-description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: center;
+    /* margin-left: 40px; */
+    margin-top: 80px;
+}
+
+/* .product-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+} */
+.card {
+    height: 390px;
+    width: 270px;
+    text-align: center;
+    background: linear-gradient(#F4F4F4, #F4F4F4);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.card-img {
+    padding: 30px 46px;
+}
+
+.card-titile {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1C1C1C;
+
+}
+
+.card-description {
+    padding: 20px 30px;
+    color: #777777;
+}
+
+
+/*............................. Presented design here.................. */
+
+.Presented {
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+
+    margin-top: 70px;
+
+}
+
+.Presented_right {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    max-height: 530px;
+
+
+
+}
+
+.Presented_right h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #1C1C1C;
+
+}
+
+.Presented_right p {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-1,
+.img-3 {
+    /* width: 238px;
+    height: 136px; */
+    background-color: rgb(255, 127, 214);
+}
+
+.Presented_left {
+    display: grid;
+    grid-template-columns: 260px 260px;
+
+
+    /* grid-template-rows: 240px 240px; */
+    gap: 30px;
+
+
+
+
+}
+
+
+
+.img-2,
+.img-4 {
+
+    background-color: aquamarine;
+
+}
+
+/* .Presented_left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+
+}
+
+
+/*................... reviews style starts herere....................................... */
+
+.reviews {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    height: 650px;
+    text-align: left;
+    padding: 70px 70px;
+    background: linear-gradient(#FF0000, #FF8938);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.review-left {
+    max-width: 380px;
+}
+
+.rev-title {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #F4F4F4;
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+
+.rev-des {
+    color: #F4F4F4;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.rev-button {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: #FF8938;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+}
+
+.card-1 {
+    width: 430px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.card-2 {
+    background-color: white;
+    margin-top: 50px;
+    width: 430px;
+    margin-left: 140px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.card-1des {
+    color: #777777;
+    padding: 30px 40px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.h2 {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.client-img {
+    position: absolute;
+    bottom: 170px;
+    right: 390px;
+    /*  border-radius: 83%;
+    border: 4px solid white;
+    -webkit-border-radius: 83%;
+    -moz-border-radius: 83%;
+    -ms-border-radius: 83%;
+    -o-border-radius: 83%; */
+}
+
+.sub-right {
+    position: relative;
+
+}
+
+.card-3 {
+    width: 430px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 130px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 2;
+
+}
+
+.h2-crd {
+    margin-top: -50px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.circle {
+    padding-left: 370px;
+}
+
+
+
+/* ******************** news and event style here ************************* */
+
+.event-header {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #1C1C1C;
+}
+
+.event-des {
+    text-align: center;
+    padding: 40px 0px;
+    max-width: 900px;
+    margin: 0px auto;
+    line-height: 26px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.event-card {
+    padding: 20px;
+    border: 1px solid #D2D2D2;
+}
+
+.event-card-date {
+    margin: 20px 0px;
+
+}
+
+.event-card-title,
+.event-card-des {
+    margin: 20px 0px;
+
+}
+
+
+/* **************** footer design here **************************8 */
+
+footer {
+    margin-top: 130px;
+    /* background: linear-gradient(#FF0000 #FF8938); */
+    background: linear-gradient(270.00deg, rgba(255, 0, 0, 0.1), rgba(255, 137.00003051757812, 55.999996185302734, 0.1) 100%);
+    padding-top: 130px;
+}
+
+.footer-1 {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.paragrap {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+.lower-footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 100px;
+
+}
+/*  .lower-footer>ul>h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1C1C;
+
+
+}  */
+
+.link-style {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1C1C1C;
+
+}
+
+li{
+   list-style: none;
+   padding: 24px 0px;
+
+}
+li a{
+     text-decoration: none;
+     color: #494949;
+     font-size: 17px;
+    
+
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px;
+    align-items: center;
+}
+.mail hr{
+    margin-top: 50px;
+    width: 275px;
+
+}
+.gater-than {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #FF8938;
+    /* margin-bottom: 50px; */
+
+}
+.gater-than i{
+    margin-top: 10px;
+    margin-left: 7px;
+    color: white;
+}
+
+.social-media{
+    margin-top: 50px;
+    /* padding: 0px 30px; */
+}
+.social-media i{
+    padding: 0px 40px;
+}
+.fot{
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 40px;
+}
